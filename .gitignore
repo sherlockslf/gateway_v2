@@ -19,6 +19,56 @@
 *.tar.gz
 *.rar
 
+# Maven
+target/
+.mvn/maven.config
+.mvn/global-settings.xml
+
+# IDE and editor local files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Local environment and runtime files
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+*.local.properties
+*.local.yml
+*.local.yaml
+tmp/
+temp/
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+docs/architecture-design.md
+docs/requirements-clarification.md
+docs/adr/ADR-0000-template.md
+docs/adr/ADR-0001-modular-monolith.md
+docs/adr/ADR-0002-gateway-event-contract.md
+docs/adr/ADR-0003-sse-default-websocket-conditional.md
+docs/adr/ADR-0004-at-least-once-replay.md
+docs/adr/ADR-0005-redis-replay-postgres-metadata.md
+docs/adr/ADR-0006-side-effects-off-hot-path.md
+docs/adr/ADR-0007-java-quarkus-first-rust-later.md
+docs/adr/ADR-0008-no-business-graph-in-gateway.md
+docs/contracts/gateway-event.schema.json
+docs/contracts/http-api-protocol.md
+docs/contracts/service-registry-admin-protocol.md
+docs/contracts/websocket-control-protocol.md
+docs/performance/phase5-capacity-gate.md
+docs/performance/phase8-production-benchmark.md
+docs/performance/rust-decision-record-template.md
+docs/
+scripts/performance/k6/usig-phase8-sse.js
+scripts/performance/k6/usig-phase8-websocket.js
+scripts/
+03-工作记录.md
+AGENTS.md

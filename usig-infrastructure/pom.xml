@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.usig</groupId>
+    <artifactId>usig</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>usig-infrastructure</artifactId>
+  <packaging>pom</packaging>
+  <name>USIG Infrastructure</name>
+
+  <modules>
+    <module>usig-infra-redis</module>
+    <module>usig-infra-postgres</module>
+    <module>usig-infra-messaging</module>
+    <module>usig-infra-observability</module>
+    <module>usig-infra-objectstorage</module>
+  </modules>
+</project>
